@@ -7,7 +7,7 @@ The main codes of the BROST tracker will be available as soon as possible.
 * Ubuntu 16.04, NVIDIA GeForce GTX 1080Ti.
 
 ## Installation
-The instrustions have been tested on an Ubuntu 16.04 system. In case of issues, we refer to these two links [1](https://github.com/alanlukezic/d3s) and [2](https://github.com/visionml/pytracking) for details.
+The instructions have been tested on an Ubuntu 16.04 system. In case of issues, we refer to these two links [1](https://github.com/alanlukezic/d3s) and [2](https://github.com/visionml/pytracking) for details.
 
 #### Clone the GIT repository
 ```
