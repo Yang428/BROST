@@ -26,8 +26,8 @@ You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/
 ## Testing the tracker
 There are the [raw resullts](https://github.com/Yang428/BROST/tree/master/RawResultsOnBenchmarks) on five datasets. 
 1) Download the testing datasets Got-10k, TrackingNet, VOT2016, VOT2018 and VOT2019 from the following Baidu cloud links.
-* [Got-10k](https://pan.baidu.com/s/1TMCb2LMUigtchzrFaTw-EA), the extraction code is 'pcj6'.
-* [TrackingNet](https://pan.baidu.com/s/1qc7FSjHXvAJkssJj-sRFKA), the extraction code is 'q00p'.
+* [Got-10k](https://pan.baidu.com/s/1t_PvpIicHc0U9yR4upf-cA), the extraction code is '78hq'.
+* [TrackingNet](https://pan.baidu.com/s/1BKtc4ndh_QrMiXF4fBB2sQ), the extraction code is '5pj8'.
 * [VOT2016](https://pan.baidu.com/s/1iU88Aqq9mvv9V4ZwY4gUuw), the extraction code is '8f6w'.
 * [VOT2018](https://pan.baidu.com/s/1ztAfNwahpDBDssnEYONDuw), the extraction code is 'jsgt'.
 * [VOT2019](https://pan.baidu.com/s/1vf7l4sQMCxZY_fDsHkuwTA), the extraction code is '61kh'.
