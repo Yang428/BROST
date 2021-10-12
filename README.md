@@ -43,7 +43,9 @@ Results path: pytracking/evaluation/local.py  settings.network_path, settings.re
 ```
 cd pytracking
 python run_experiment.py myexperiments got10k
+python packed_got10k.py
 python run_experiment.py myexperiments trackingnet
+python packed_trackingnet.py
 ```
 
 ## Evaluation on VOT16, VOT18 and VOT19 using Matlab R2016b
