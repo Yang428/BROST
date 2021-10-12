@@ -48,6 +48,16 @@ python run_experiment.py myexperiments trackingnet
 ## Evaluation on VOT16, VOT18 and VOT19 using Matlab R2016b
 We provide a [VOT Matlab toolkit](https://github.com/votchallenge/toolkit-legacy) integration for the BROST tracker. There is the [tracker_BROST.m](https://github.com/Yang428/BROST/tree/master/pytracking/utils) Matlab file in the 'pytracking/utils', which can be connected with the toolkit. It uses the 'pytracking/vot_wrapper.py' script to integrate the tracker to the toolkit.
 
+## Evaluation on VOT2020 using Python Toolkit
+We provide a [VOT Python toolkit](https://github.com/votchallenge/toolkit) integration for the BROST tracker. There is the [trackers.ini](https://github.com/Yang428/BROST/tree/master/pytracking/utils) setting file in the 'pytracking/utils', which can be connected with the toolkit. It uses the 'pytracking/vot20_wrapper.py' script to integrate the tracker to the toolkit.
+```
+cd pytracking/workspace_vot2020
+pip install git+https://github.com/votchallenge/vot-toolkit-python
+vot initialize <vot2020> --workspace ./workspace_vot2020/
+vot evaluate LEAST
+vot analysis --workspace ./workspace_vot2020/ LEAST
+```
+
 ## Training the networks
 The segmentation network in BROST tracker is pre-trained only on the YouTube VOS dataset. Download the VOS training dataset (2018 version) and copy the files vos-list-train.txt and vos-list-val.txt from ltr/data_specs to the train directory of the VOS dataset.
 1) Download the training dataset from [this link](https://youtube-vos.org/challenge/2018/).
