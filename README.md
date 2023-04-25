@@ -1,10 +1,16 @@
 # BROST Tracker
 
-The main codes of the BROST tracker will be available as soon as possible.
+## Publication
+Yijin Yang and Xiaodong Gu.
+Accurate and robust visual tracking using bounding box refinement and online sample filtering.
+Signal Processing: Image Communication, 2023.
+
+# Abstract
+Discriminative correlation trackers have currently achieved excellent performance in terms of tracking robustness. However, these trackers still suffer from limited precision of bounding box estimation due to the challenging factors of occlusion, deformation and rotation. In this paper, in order to address these issues, we propose a three-stage tracking framework called BROST. The proposed tracker is mainly composed of DCF module, segmentation module and box refinement module. Firstly, the proposed tracker roughly locates the center position of the object through the DCF module, then utilizes the segmentation module to estimate the scale of the object and finally employs the box refinement module to improve the accuracy of target box estimation. In order to achieve high tracking robustness, we develop a confidence function of correlation response map to filter out the corrupted or occluded training samples of DCF module. Besides, we introduce a new mask initialization network into the segmentation module to make it more suitable for tracking task. The comprehensive experimental results on six challenging visual tracking benchmarks show that the proposed BROST tracker outperforms most of the state-of-the-art trackers and achieves favorable tracking performance on VOT benchmarks.
 
 ## Running Environments
 * Pytorch 1.1.0, Python 3.6.12, Cuda 9.0, torchvision 0.3.0, cudatoolkit 9.0, Matlab R2016b.
-* Ubuntu 16.04, NVIDIA GeForce GTX 1080Ti.
+* Ubuntu 16.04, NVIDIA GeForce GTX 1080Ti, i7-6700K CPU @ 4.00GHz.
 
 ## Installation
 The instructions have been tested on an Ubuntu 16.04 system. In case of issues, we refer to these two links [1](https://github.com/alanlukezic/d3s) and [2](https://github.com/visionml/pytracking) for details.
