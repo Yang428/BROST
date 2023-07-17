@@ -1,4 +1,4 @@
-# BROST Tracker
+# BROST - Accurate and Robust Visual Tracking Using Bounding Box Refinement and Online Sample Filtering
 
 ## Publication
 Yijin Yang and Xiaodong Gu.
